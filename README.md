@@ -1,17 +1,25 @@
 <h1 align="center">👋, I'm Amilcar Steban Rodriguez</h1>
+<br />
+
 <h3 align="center">I am a telematics engineering student</h3>
+<br />
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical" alt="Anurag's GitHub stats">
-</p>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical" />
+</a>
+<br />
 
-- 🔭 I’m currently working on **my dreams.**
+*  🔭 I’m currently working on **my dreams.**
+  
+*  🌱 I’m currently learning **Linux, Python, Kotlin, HTML and programming in TCP and UDP protocols.**
+  
+*  📫 How to reach me **amilcarshm@gmail.com**
+<br />
+<br />
 
-- 🌱 I’m currently learning **Linux, Python, Kotlin, HTML and programming in TCP and UDP protocols.**
-
-- 📫 How to reach me **amilcarshm@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">
+  
+  Connect with me:</h3>
 <p align="left">
 <a href="https://instagram.com/stebanr.09?igshid=ZDdkNTZiNTM=" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40" /></a>
 </p>

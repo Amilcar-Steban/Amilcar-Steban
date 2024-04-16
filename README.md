@@ -1,8 +1,5 @@
 <h1 align="center">👋, I'm Amilcar Steban Rodriguez</h1>
-<br />
-
 <h3 align="center">I am a telematics engineering student</h3>
-<br />
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amilcar-Steban&layout=compact" />

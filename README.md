@@ -14,8 +14,21 @@
 *  🌱 I’m currently learning **Linux, Python, Kotlin, HTML and programming in TCP and UDP protocols.**
   
 *  📫 How to reach me **amilcarshm@gmail.com**
-<br />
-<br />
+<h3>
+  About me
+</h3>
+
+```javascript
+const Amilcar = {
+  code: ["Python", "Java", "JavaScript", "HTML", "CSS", "React", "Kotlin", "Flutter", "Django", "Tkinter", "MySQL", "Postgres"],
+  tools: ["Kubernetes", "Docker", "Ansible", "Terraform", "Pipelines", "AWS", "Azure", "GCloud"],
+  ID: ["VSCode"],
+  architecture: ["Microservices"],
+  hobbies: ["Cooking", "Travel", "keep learning", "drawing on paper", "videogames"],
+  skills: ["Microservices", "CLOUD", "IaC", "DevOps", "CI/CD", "Platform management", "Network infrastructure", "Software development", "Programming languages"]
+}
+```
+
 
 <h3 align="left">
   

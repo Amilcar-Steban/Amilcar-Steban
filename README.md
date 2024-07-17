@@ -19,7 +19,7 @@
 const Amilcar = {
   code: ["Python", "Java", "JavaScript", "HTML", "CSS", "React", "Kotlin", "Flutter", "Django", "Tkinter", "MySQL", "Postgres"],
   tools: ["Kubernetes", "Docker", "Ansible", "Terraform", "Pipelines", "AWS", "Azure", "GCloud"],
-  ID: ["VSCode"],
+  IDE: ["VSCode"],
   architecture: ["Microservices"],
   hobbies: ["Cooking", "Travel", "keep learning", "drawing on paper", "videogames"],
   skills: ["Microservices", "CLOUD", "IaC", "DevOps", "CI/CD", "Platform management", "Network infrastructure", "Software development", "Programming languages"]

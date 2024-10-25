@@ -1,4 +1,4 @@
-<h1 align="center">👋, I'm Amilcar Steban Rodriguez</h1>
+<h1 align="center">👋, I'm Amilcar Rodriguez</h1>
 <h3 align="center">I am a telematics engineering student</h3>
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
@@ -8,7 +8,7 @@
 
 *  🔭 I’m currently working on **my dreams.**
   
-*  🌱 I’m currently learning **Linux, Python, Kotlin, HTML and programming in TCP and UDP protocols.**
+*  🌱 I’m currently learning **Linux, Java, Python, and scripting with bash.**
   
 *  📫 How to reach me **amilcarshm@gmail.com**
 <h3>

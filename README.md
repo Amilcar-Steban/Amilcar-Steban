@@ -17,12 +17,12 @@
 
 ```javascript
 const Amilcar = {
-  code: ["Python", "Java", "JavaScript", "HTML", "CSS", "React", "Kotlin", "Flutter", "Django", "Tkinter", "MySQL", "Postgres"],
+  code: ["Java", "JavaScript", "Python", "HTML", "CSS", "Kotlin"],
   tools: ["Kubernetes", "Docker", "Ansible", "Terraform", "Pipelines", "AWS", "Azure", "GCloud"],
-  IDE: ["VSCode"],
+  database: [ "MySQL", "Postgres"],
   architecture: ["Microservices"],
   hobbies: ["Cooking", "Travel", "keep learning", "drawing on paper", "videogames"],
-  skills: ["Microservices", "CLOUD", "IaC", "DevOps", "CI/CD", "Platform management", "Network infrastructure", "Software development", "Programming languages"]
+  skills: ["Microservices", "CLOUD", "IaC", "DevOps", "CI/CD","Software development"]
 }
 ```
 

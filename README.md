@@ -1,6 +1,6 @@
 <!-- Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:2ea043&height=180&section=header&text=Amilcar%20Rodriguez&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=DevOps%20%26%20Software%20Engineer&descAlignY=58&descSize=18" alt="Amilcar Rodriguez — DevOps & Software Engineer" />
+  <img src="./assets/header.svg" alt="Amilcar Rodriguez — DevOps &amp; Software Engineer" width="100%" />
 </p>
 
 <p align="center">
@@ -97,5 +97,5 @@ spec:
 Open to collaborating on **DevOps, platform engineering and cloud-native** projects. Reach me at **[amilcarshm@gmail.com](mailto:amilcarshm@gmail.com)** or on **[LinkedIn](https://www.linkedin.com/in/amilcar-steban-rodriguez-martinez-6a65532a4/)**.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2ea043,50:1f6feb,100:0d1117&height=100&section=footer" alt="footer" />
+  <img src="./assets/footer.svg" alt="" width="100%" />
 </p>

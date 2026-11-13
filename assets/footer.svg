@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80">
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ea043"/>
+      <stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+  </defs>
+  <style>.w{animation:s 10s ease-in-out infinite alternate}@keyframes s{from{transform:translateX(0)}to{transform:translateX(-60px)}}</style>
+  <g class="w" opacity="0.5"><path d="M0 30 Q150 0 300 30 T600 30 T900 30 T1200 30 T1500 30 V80 H0Z" fill="url(#wave)"/></g>
+  <g opacity="0.9"><path d="M0 50 Q150 25 300 50 T600 50 T900 50 T1200 50 V80 H0Z" fill="url(#wave)"/></g>
+</svg>

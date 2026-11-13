@@ -1,190 +1,186 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
   <defs>
     <linearGradient id="fadeV" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
-      <stop offset="0.42" stop-color="#fff" stop-opacity="0"/>
-      <stop offset="0.58" stop-color="#fff" stop-opacity="0"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0" stop-color="#fff"/><stop offset="0.4" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff"/>
     </linearGradient>
     <radialGradient id="fadeH" cx="0.5" cy="0.5" r="0.75">
-      <stop offset="0.25" stop-color="#fff" stop-opacity="1"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="0.15"/>
+      <stop offset="0.25" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0.15"/>
     </radialGradient>
-    <mask id="m">
-      <rect width="1200" height="260" fill="url(#fadeV)"/>
-    </mask>
-    <mask id="m2"><rect width="1200" height="260" fill="url(#fadeH)"/></mask>
+    <mask id="m"><rect width="1200" height="320" fill="url(#fadeV)"/></mask>
+    <mask id="m2"><rect width="1200" height="320" fill="url(#fadeH)"/></mask>
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0" stop-color="#fff" stop-opacity="0.10"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </radialGradient>
     <filter id="blur" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
-    <clipPath id="c"><rect width="1200" height="260" rx="14"/></clipPath>
+    <clipPath id="c"><rect width="1200" height="320" rx="14"/></clipPath>
+    <clipPath id="cp0"><rect class="r0" x="316.0" y="222" width="568.0" height="34"/></clipPath><clipPath id="cp1"><rect class="r1" x="400.0" y="222" width="400.0" height="34"/></clipPath><clipPath id="cp2"><rect class="r2" x="388.0" y="222" width="424.0" height="34"/></clipPath><clipPath id="cp3"><rect class="r3" x="376.0" y="222" width="448.0" height="34"/></clipPath>
   </defs>
   <style>
     .t{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#fff}
-    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-    .cur{animation:b 1s steps(1) infinite}
-    @keyframes b{50%{opacity:0}}
-    .pulse{animation:p 6s ease-in-out infinite}
-    @keyframes p{0%,100%{opacity:.55}50%{opacity:.9}}
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+    .cur{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}
+    .p0{animation:o0 16.0s linear infinite}@keyframes o0{0%,0.00%{opacity:0}0.00%,22.50%{opacity:1}24.99%,100%{opacity:0}}.r0{transform-box:fill-box;transform-origin:left;animation:t0 16.0s steps(1,end) infinite}@keyframes t0{0%{transform:scaleX(0)}0.000%{transform:scaleX(0.0000)}0.266%{transform:scaleX(0.0213)}0.532%{transform:scaleX(0.0426)}0.798%{transform:scaleX(0.0638)}1.064%{transform:scaleX(0.0851)}1.330%{transform:scaleX(0.1064)}1.596%{transform:scaleX(0.1277)}1.862%{transform:scaleX(0.1489)}2.128%{transform:scaleX(0.1702)}2.394%{transform:scaleX(0.1915)}2.660%{transform:scaleX(0.2128)}2.926%{transform:scaleX(0.2340)}3.191%{transform:scaleX(0.2553)}3.457%{transform:scaleX(0.2766)}3.723%{transform:scaleX(0.2979)}3.989%{transform:scaleX(0.3191)}4.255%{transform:scaleX(0.3404)}4.521%{transform:scaleX(0.3617)}4.787%{transform:scaleX(0.3830)}5.053%{transform:scaleX(0.4043)}5.319%{transform:scaleX(0.4255)}5.585%{transform:scaleX(0.4468)}5.851%{transform:scaleX(0.4681)}6.117%{transform:scaleX(0.4894)}6.383%{transform:scaleX(0.5106)}6.649%{transform:scaleX(0.5319)}6.915%{transform:scaleX(0.5532)}7.181%{transform:scaleX(0.5745)}7.447%{transform:scaleX(0.5957)}7.713%{transform:scaleX(0.6170)}7.979%{transform:scaleX(0.6383)}8.245%{transform:scaleX(0.6596)}8.511%{transform:scaleX(0.6809)}8.777%{transform:scaleX(0.7021)}9.043%{transform:scaleX(0.7234)}9.309%{transform:scaleX(0.7447)}9.574%{transform:scaleX(0.7660)}9.840%{transform:scaleX(0.7872)}10.106%{transform:scaleX(0.8085)}10.372%{transform:scaleX(0.8298)}10.638%{transform:scaleX(0.8511)}10.904%{transform:scaleX(0.8723)}11.170%{transform:scaleX(0.8936)}11.436%{transform:scaleX(0.9149)}11.702%{transform:scaleX(0.9362)}11.968%{transform:scaleX(0.9574)}12.234%{transform:scaleX(0.9787)}12.500%{transform:scaleX(1.0000)}100%{transform:scaleX(1)}}.p1{animation:o1 16.0s linear infinite}@keyframes o1{0%,24.99%{opacity:0}25.00%,47.50%{opacity:1}49.99%,100%{opacity:0}}.r1{transform-box:fill-box;transform-origin:left;animation:t1 16.0s steps(1,end) infinite}@keyframes t1{0%{transform:scaleX(0)}25.000%{transform:scaleX(0.0000)}25.379%{transform:scaleX(0.0303)}25.758%{transform:scaleX(0.0606)}26.136%{transform:scaleX(0.0909)}26.515%{transform:scaleX(0.1212)}26.894%{transform:scaleX(0.1515)}27.273%{transform:scaleX(0.1818)}27.652%{transform:scaleX(0.2121)}28.030%{transform:scaleX(0.2424)}28.409%{transform:scaleX(0.2727)}28.788%{transform:scaleX(0.3030)}29.167%{transform:scaleX(0.3333)}29.545%{transform:scaleX(0.3636)}29.924%{transform:scaleX(0.3939)}30.303%{transform:scaleX(0.4242)}30.682%{transform:scaleX(0.4545)}31.061%{transform:scaleX(0.4848)}31.439%{transform:scaleX(0.5152)}31.818%{transform:scaleX(0.5455)}32.197%{transform:scaleX(0.5758)}32.576%{transform:scaleX(0.6061)}32.955%{transform:scaleX(0.6364)}33.333%{transform:scaleX(0.6667)}33.712%{transform:scaleX(0.6970)}34.091%{transform:scaleX(0.7273)}34.470%{transform:scaleX(0.7576)}34.848%{transform:scaleX(0.7879)}35.227%{transform:scaleX(0.8182)}35.606%{transform:scaleX(0.8485)}35.985%{transform:scaleX(0.8788)}36.364%{transform:scaleX(0.9091)}36.742%{transform:scaleX(0.9394)}37.121%{transform:scaleX(0.9697)}37.500%{transform:scaleX(1.0000)}100%{transform:scaleX(1)}}.p2{animation:o2 16.0s linear infinite}@keyframes o2{0%,49.99%{opacity:0}50.00%,72.50%{opacity:1}74.99%,100%{opacity:0}}.r2{transform-box:fill-box;transform-origin:left;animation:t2 16.0s steps(1,end) infinite}@keyframes t2{0%{transform:scaleX(0)}50.000%{transform:scaleX(0.0000)}50.357%{transform:scaleX(0.0286)}50.714%{transform:scaleX(0.0571)}51.071%{transform:scaleX(0.0857)}51.429%{transform:scaleX(0.1143)}51.786%{transform:scaleX(0.1429)}52.143%{transform:scaleX(0.1714)}52.500%{transform:scaleX(0.2000)}52.857%{transform:scaleX(0.2286)}53.214%{transform:scaleX(0.2571)}53.571%{transform:scaleX(0.2857)}53.929%{transform:scaleX(0.3143)}54.286%{transform:scaleX(0.3429)}54.643%{transform:scaleX(0.3714)}55.000%{transform:scaleX(0.4000)}55.357%{transform:scaleX(0.4286)}55.714%{transform:scaleX(0.4571)}56.071%{transform:scaleX(0.4857)}56.429%{transform:scaleX(0.5143)}56.786%{transform:scaleX(0.5429)}57.143%{transform:scaleX(0.5714)}57.500%{transform:scaleX(0.6000)}57.857%{transform:scaleX(0.6286)}58.214%{transform:scaleX(0.6571)}58.571%{transform:scaleX(0.6857)}58.929%{transform:scaleX(0.7143)}59.286%{transform:scaleX(0.7429)}59.643%{transform:scaleX(0.7714)}60.000%{transform:scaleX(0.8000)}60.357%{transform:scaleX(0.8286)}60.714%{transform:scaleX(0.8571)}61.071%{transform:scaleX(0.8857)}61.429%{transform:scaleX(0.9143)}61.786%{transform:scaleX(0.9429)}62.143%{transform:scaleX(0.9714)}62.500%{transform:scaleX(1.0000)}100%{transform:scaleX(1)}}.p3{animation:o3 16.0s linear infinite}@keyframes o3{0%,74.99%{opacity:0}75.00%,97.50%{opacity:1}99.99%,100%{opacity:0}}.r3{transform-box:fill-box;transform-origin:left;animation:t3 16.0s steps(1,end) infinite}@keyframes t3{0%{transform:scaleX(0)}75.000%{transform:scaleX(0.0000)}75.338%{transform:scaleX(0.0270)}75.676%{transform:scaleX(0.0541)}76.014%{transform:scaleX(0.0811)}76.351%{transform:scaleX(0.1081)}76.689%{transform:scaleX(0.1351)}77.027%{transform:scaleX(0.1622)}77.365%{transform:scaleX(0.1892)}77.703%{transform:scaleX(0.2162)}78.041%{transform:scaleX(0.2432)}78.378%{transform:scaleX(0.2703)}78.716%{transform:scaleX(0.2973)}79.054%{transform:scaleX(0.3243)}79.392%{transform:scaleX(0.3514)}79.730%{transform:scaleX(0.3784)}80.068%{transform:scaleX(0.4054)}80.405%{transform:scaleX(0.4324)}80.743%{transform:scaleX(0.4595)}81.081%{transform:scaleX(0.4865)}81.419%{transform:scaleX(0.5135)}81.757%{transform:scaleX(0.5405)}82.095%{transform:scaleX(0.5676)}82.432%{transform:scaleX(0.5946)}82.770%{transform:scaleX(0.6216)}83.108%{transform:scaleX(0.6486)}83.446%{transform:scaleX(0.6757)}83.784%{transform:scaleX(0.7027)}84.122%{transform:scaleX(0.7297)}84.459%{transform:scaleX(0.7568)}84.797%{transform:scaleX(0.7838)}85.135%{transform:scaleX(0.8108)}85.473%{transform:scaleX(0.8378)}85.811%{transform:scaleX(0.8649)}86.149%{transform:scaleX(0.8919)}86.486%{transform:scaleX(0.9189)}86.824%{transform:scaleX(0.9459)}87.162%{transform:scaleX(0.9730)}87.500%{transform:scaleX(1.0000)}100%{transform:scaleX(1)}}
   </style>
   <g clip-path="url(#c)">
-    <rect width="1200" height="260" fill="#000"/>
-    <g mask="url(#m2)"><g mask="url(#m)" class="pulse" stroke="#ffffff" stroke-width="1" stroke-opacity="0.8" fill="none">
-    <line x1="600" y1="130" x2="-2400" y2="260"/>
-    <line x1="600" y1="130" x2="-2300" y2="260"/>
-    <line x1="600" y1="130" x2="-2200" y2="260"/>
-    <line x1="600" y1="130" x2="-2100" y2="260"/>
-    <line x1="600" y1="130" x2="-2000" y2="260"/>
-    <line x1="600" y1="130" x2="-1900" y2="260"/>
-    <line x1="600" y1="130" x2="-1800" y2="260"/>
-    <line x1="600" y1="130" x2="-1700" y2="260"/>
-    <line x1="600" y1="130" x2="-1600" y2="260"/>
-    <line x1="600" y1="130" x2="-1500" y2="260"/>
-    <line x1="600" y1="130" x2="-1400" y2="260"/>
-    <line x1="600" y1="130" x2="-1300" y2="260"/>
-    <line x1="600" y1="130" x2="-1200" y2="260"/>
-    <line x1="600" y1="130" x2="-1100" y2="260"/>
-    <line x1="600" y1="130" x2="-1000" y2="260"/>
-    <line x1="600" y1="130" x2="-900" y2="260"/>
-    <line x1="600" y1="130" x2="-800" y2="260"/>
-    <line x1="600" y1="130" x2="-700" y2="260"/>
-    <line x1="600" y1="130" x2="-600" y2="260"/>
-    <line x1="600" y1="130" x2="-500" y2="260"/>
-    <line x1="600" y1="130" x2="-400" y2="260"/>
-    <line x1="600" y1="130" x2="-300" y2="260"/>
-    <line x1="600" y1="130" x2="-200" y2="260"/>
-    <line x1="600" y1="130" x2="-100" y2="260"/>
-    <line x1="600" y1="130" x2="0" y2="260"/>
-    <line x1="600" y1="130" x2="100" y2="260"/>
-    <line x1="600" y1="130" x2="200" y2="260"/>
-    <line x1="600" y1="130" x2="300" y2="260"/>
-    <line x1="600" y1="130" x2="400" y2="260"/>
-    <line x1="600" y1="130" x2="500" y2="260"/>
-    <line x1="600" y1="130" x2="600" y2="260"/>
-    <line x1="600" y1="130" x2="700" y2="260"/>
-    <line x1="600" y1="130" x2="800" y2="260"/>
-    <line x1="600" y1="130" x2="900" y2="260"/>
-    <line x1="600" y1="130" x2="1000" y2="260"/>
-    <line x1="600" y1="130" x2="1100" y2="260"/>
-    <line x1="600" y1="130" x2="1200" y2="260"/>
-    <line x1="600" y1="130" x2="1300" y2="260"/>
-    <line x1="600" y1="130" x2="1400" y2="260"/>
-    <line x1="600" y1="130" x2="1500" y2="260"/>
-    <line x1="600" y1="130" x2="1600" y2="260"/>
-    <line x1="600" y1="130" x2="1700" y2="260"/>
-    <line x1="600" y1="130" x2="1800" y2="260"/>
-    <line x1="600" y1="130" x2="1900" y2="260"/>
-    <line x1="600" y1="130" x2="2000" y2="260"/>
-    <line x1="600" y1="130" x2="2100" y2="260"/>
-    <line x1="600" y1="130" x2="2200" y2="260"/>
-    <line x1="600" y1="130" x2="2300" y2="260"/>
-    <line x1="600" y1="130" x2="2400" y2="260"/>
-    <line x1="600" y1="130" x2="2500" y2="260"/>
-    <line x1="600" y1="130" x2="2600" y2="260"/>
-    <line x1="600" y1="130" x2="2700" y2="260"/>
-    <line x1="600" y1="130" x2="2800" y2="260"/>
-    <line x1="600" y1="130" x2="2900" y2="260"/>
-    <line x1="600" y1="130" x2="3000" y2="260"/>
-    <line x1="600" y1="130" x2="3100" y2="260"/>
-    <line x1="600" y1="130" x2="3200" y2="260"/>
-    <line x1="600" y1="130" x2="3300" y2="260"/>
-    <line x1="600" y1="130" x2="3400" y2="260"/>
-    <line x1="600" y1="130" x2="3500" y2="260"/>
-    <line x1="600" y1="130" x2="3600" y2="260"/>
-    <line x1="0" y1="130.5" x2="1200" y2="130.5"/>
-    <line x1="0" y1="132.1" x2="1200" y2="132.1"/>
-    <line x1="0" y1="135.2" x2="1200" y2="135.2"/>
-    <line x1="0" y1="139.7" x2="1200" y2="139.7"/>
-    <line x1="0" y1="145.9" x2="1200" y2="145.9"/>
-    <line x1="0" y1="153.7" x2="1200" y2="153.7"/>
-    <line x1="0" y1="163.3" x2="1200" y2="163.3"/>
-    <line x1="0" y1="174.7" x2="1200" y2="174.7"/>
-    <line x1="0" y1="187.9" x2="1200" y2="187.9"/>
-    <line x1="0" y1="203.0" x2="1200" y2="203.0"/>
-    <line x1="0" y1="220.0" x2="1200" y2="220.0"/>
-    <line x1="0" y1="239.0" x2="1200" y2="239.0"/>
-    <line x1="0" y1="260.0" x2="1200" y2="260.0"/>
-    <line x1="600" y1="130" x2="-2400" y2="0"/>
-    <line x1="600" y1="130" x2="-2300" y2="0"/>
-    <line x1="600" y1="130" x2="-2200" y2="0"/>
-    <line x1="600" y1="130" x2="-2100" y2="0"/>
-    <line x1="600" y1="130" x2="-2000" y2="0"/>
-    <line x1="600" y1="130" x2="-1900" y2="0"/>
-    <line x1="600" y1="130" x2="-1800" y2="0"/>
-    <line x1="600" y1="130" x2="-1700" y2="0"/>
-    <line x1="600" y1="130" x2="-1600" y2="0"/>
-    <line x1="600" y1="130" x2="-1500" y2="0"/>
-    <line x1="600" y1="130" x2="-1400" y2="0"/>
-    <line x1="600" y1="130" x2="-1300" y2="0"/>
-    <line x1="600" y1="130" x2="-1200" y2="0"/>
-    <line x1="600" y1="130" x2="-1100" y2="0"/>
-    <line x1="600" y1="130" x2="-1000" y2="0"/>
-    <line x1="600" y1="130" x2="-900" y2="0"/>
-    <line x1="600" y1="130" x2="-800" y2="0"/>
-    <line x1="600" y1="130" x2="-700" y2="0"/>
-    <line x1="600" y1="130" x2="-600" y2="0"/>
-    <line x1="600" y1="130" x2="-500" y2="0"/>
-    <line x1="600" y1="130" x2="-400" y2="0"/>
-    <line x1="600" y1="130" x2="-300" y2="0"/>
-    <line x1="600" y1="130" x2="-200" y2="0"/>
-    <line x1="600" y1="130" x2="-100" y2="0"/>
-    <line x1="600" y1="130" x2="0" y2="0"/>
-    <line x1="600" y1="130" x2="100" y2="0"/>
-    <line x1="600" y1="130" x2="200" y2="0"/>
-    <line x1="600" y1="130" x2="300" y2="0"/>
-    <line x1="600" y1="130" x2="400" y2="0"/>
-    <line x1="600" y1="130" x2="500" y2="0"/>
-    <line x1="600" y1="130" x2="600" y2="0"/>
-    <line x1="600" y1="130" x2="700" y2="0"/>
-    <line x1="600" y1="130" x2="800" y2="0"/>
-    <line x1="600" y1="130" x2="900" y2="0"/>
-    <line x1="600" y1="130" x2="1000" y2="0"/>
-    <line x1="600" y1="130" x2="1100" y2="0"/>
-    <line x1="600" y1="130" x2="1200" y2="0"/>
-    <line x1="600" y1="130" x2="1300" y2="0"/>
-    <line x1="600" y1="130" x2="1400" y2="0"/>
-    <line x1="600" y1="130" x2="1500" y2="0"/>
-    <line x1="600" y1="130" x2="1600" y2="0"/>
-    <line x1="600" y1="130" x2="1700" y2="0"/>
-    <line x1="600" y1="130" x2="1800" y2="0"/>
-    <line x1="600" y1="130" x2="1900" y2="0"/>
-    <line x1="600" y1="130" x2="2000" y2="0"/>
-    <line x1="600" y1="130" x2="2100" y2="0"/>
-    <line x1="600" y1="130" x2="2200" y2="0"/>
-    <line x1="600" y1="130" x2="2300" y2="0"/>
-    <line x1="600" y1="130" x2="2400" y2="0"/>
-    <line x1="600" y1="130" x2="2500" y2="0"/>
-    <line x1="600" y1="130" x2="2600" y2="0"/>
-    <line x1="600" y1="130" x2="2700" y2="0"/>
-    <line x1="600" y1="130" x2="2800" y2="0"/>
-    <line x1="600" y1="130" x2="2900" y2="0"/>
-    <line x1="600" y1="130" x2="3000" y2="0"/>
-    <line x1="600" y1="130" x2="3100" y2="0"/>
-    <line x1="600" y1="130" x2="3200" y2="0"/>
-    <line x1="600" y1="130" x2="3300" y2="0"/>
-    <line x1="600" y1="130" x2="3400" y2="0"/>
-    <line x1="600" y1="130" x2="3500" y2="0"/>
-    <line x1="600" y1="130" x2="3600" y2="0"/>
-    <line x1="0" y1="129.5" x2="1200" y2="129.5"/>
-    <line x1="0" y1="127.9" x2="1200" y2="127.9"/>
-    <line x1="0" y1="124.8" x2="1200" y2="124.8"/>
-    <line x1="0" y1="120.3" x2="1200" y2="120.3"/>
-    <line x1="0" y1="114.1" x2="1200" y2="114.1"/>
-    <line x1="0" y1="106.3" x2="1200" y2="106.3"/>
-    <line x1="0" y1="96.7" x2="1200" y2="96.7"/>
-    <line x1="0" y1="85.3" x2="1200" y2="85.3"/>
-    <line x1="0" y1="72.1" x2="1200" y2="72.1"/>
-    <line x1="0" y1="57.0" x2="1200" y2="57.0"/>
-    <line x1="0" y1="40.0" x2="1200" y2="40.0"/>
-    <line x1="0" y1="21.0" x2="1200" y2="21.0"/>
+    <rect width="1200" height="320" fill="#000"/>
+    <g mask="url(#m2)"><g mask="url(#m)" stroke="#fff" stroke-opacity="0.8" fill="none">
+    <line x1="600" y1="150" x2="-2400" y2="320"/>
+    <line x1="600" y1="150" x2="-2300" y2="320"/>
+    <line x1="600" y1="150" x2="-2200" y2="320"/>
+    <line x1="600" y1="150" x2="-2100" y2="320"/>
+    <line x1="600" y1="150" x2="-2000" y2="320"/>
+    <line x1="600" y1="150" x2="-1900" y2="320"/>
+    <line x1="600" y1="150" x2="-1800" y2="320"/>
+    <line x1="600" y1="150" x2="-1700" y2="320"/>
+    <line x1="600" y1="150" x2="-1600" y2="320"/>
+    <line x1="600" y1="150" x2="-1500" y2="320"/>
+    <line x1="600" y1="150" x2="-1400" y2="320"/>
+    <line x1="600" y1="150" x2="-1300" y2="320"/>
+    <line x1="600" y1="150" x2="-1200" y2="320"/>
+    <line x1="600" y1="150" x2="-1100" y2="320"/>
+    <line x1="600" y1="150" x2="-1000" y2="320"/>
+    <line x1="600" y1="150" x2="-900" y2="320"/>
+    <line x1="600" y1="150" x2="-800" y2="320"/>
+    <line x1="600" y1="150" x2="-700" y2="320"/>
+    <line x1="600" y1="150" x2="-600" y2="320"/>
+    <line x1="600" y1="150" x2="-500" y2="320"/>
+    <line x1="600" y1="150" x2="-400" y2="320"/>
+    <line x1="600" y1="150" x2="-300" y2="320"/>
+    <line x1="600" y1="150" x2="-200" y2="320"/>
+    <line x1="600" y1="150" x2="-100" y2="320"/>
+    <line x1="600" y1="150" x2="0" y2="320"/>
+    <line x1="600" y1="150" x2="100" y2="320"/>
+    <line x1="600" y1="150" x2="200" y2="320"/>
+    <line x1="600" y1="150" x2="300" y2="320"/>
+    <line x1="600" y1="150" x2="400" y2="320"/>
+    <line x1="600" y1="150" x2="500" y2="320"/>
+    <line x1="600" y1="150" x2="600" y2="320"/>
+    <line x1="600" y1="150" x2="700" y2="320"/>
+    <line x1="600" y1="150" x2="800" y2="320"/>
+    <line x1="600" y1="150" x2="900" y2="320"/>
+    <line x1="600" y1="150" x2="1000" y2="320"/>
+    <line x1="600" y1="150" x2="1100" y2="320"/>
+    <line x1="600" y1="150" x2="1200" y2="320"/>
+    <line x1="600" y1="150" x2="1300" y2="320"/>
+    <line x1="600" y1="150" x2="1400" y2="320"/>
+    <line x1="600" y1="150" x2="1500" y2="320"/>
+    <line x1="600" y1="150" x2="1600" y2="320"/>
+    <line x1="600" y1="150" x2="1700" y2="320"/>
+    <line x1="600" y1="150" x2="1800" y2="320"/>
+    <line x1="600" y1="150" x2="1900" y2="320"/>
+    <line x1="600" y1="150" x2="2000" y2="320"/>
+    <line x1="600" y1="150" x2="2100" y2="320"/>
+    <line x1="600" y1="150" x2="2200" y2="320"/>
+    <line x1="600" y1="150" x2="2300" y2="320"/>
+    <line x1="600" y1="150" x2="2400" y2="320"/>
+    <line x1="600" y1="150" x2="2500" y2="320"/>
+    <line x1="600" y1="150" x2="2600" y2="320"/>
+    <line x1="600" y1="150" x2="2700" y2="320"/>
+    <line x1="600" y1="150" x2="2800" y2="320"/>
+    <line x1="600" y1="150" x2="2900" y2="320"/>
+    <line x1="600" y1="150" x2="3000" y2="320"/>
+    <line x1="600" y1="150" x2="3100" y2="320"/>
+    <line x1="600" y1="150" x2="3200" y2="320"/>
+    <line x1="600" y1="150" x2="3300" y2="320"/>
+    <line x1="600" y1="150" x2="3400" y2="320"/>
+    <line x1="600" y1="150" x2="3500" y2="320"/>
+    <line x1="600" y1="150" x2="3600" y2="320"/>
+    <line x1="0" y1="150.5" x2="1200" y2="150.5"/>
+    <line x1="0" y1="152.4" x2="1200" y2="152.4"/>
+    <line x1="0" y1="155.7" x2="1200" y2="155.7"/>
+    <line x1="0" y1="160.8" x2="1200" y2="160.8"/>
+    <line x1="0" y1="167.6" x2="1200" y2="167.6"/>
+    <line x1="0" y1="176.4" x2="1200" y2="176.4"/>
+    <line x1="0" y1="187.0" x2="1200" y2="187.0"/>
+    <line x1="0" y1="199.6" x2="1200" y2="199.6"/>
+    <line x1="0" y1="214.3" x2="1200" y2="214.3"/>
+    <line x1="0" y1="231.1" x2="1200" y2="231.1"/>
+    <line x1="0" y1="250.0" x2="1200" y2="250.0"/>
+    <line x1="0" y1="271.1" x2="1200" y2="271.1"/>
+    <line x1="0" y1="294.4" x2="1200" y2="294.4"/>
+    <line x1="0" y1="320.0" x2="1200" y2="320.0"/>
+    <line x1="600" y1="150" x2="-2400" y2="0"/>
+    <line x1="600" y1="150" x2="-2300" y2="0"/>
+    <line x1="600" y1="150" x2="-2200" y2="0"/>
+    <line x1="600" y1="150" x2="-2100" y2="0"/>
+    <line x1="600" y1="150" x2="-2000" y2="0"/>
+    <line x1="600" y1="150" x2="-1900" y2="0"/>
+    <line x1="600" y1="150" x2="-1800" y2="0"/>
+    <line x1="600" y1="150" x2="-1700" y2="0"/>
+    <line x1="600" y1="150" x2="-1600" y2="0"/>
+    <line x1="600" y1="150" x2="-1500" y2="0"/>
+    <line x1="600" y1="150" x2="-1400" y2="0"/>
+    <line x1="600" y1="150" x2="-1300" y2="0"/>
+    <line x1="600" y1="150" x2="-1200" y2="0"/>
+    <line x1="600" y1="150" x2="-1100" y2="0"/>
+    <line x1="600" y1="150" x2="-1000" y2="0"/>
+    <line x1="600" y1="150" x2="-900" y2="0"/>
+    <line x1="600" y1="150" x2="-800" y2="0"/>
+    <line x1="600" y1="150" x2="-700" y2="0"/>
+    <line x1="600" y1="150" x2="-600" y2="0"/>
+    <line x1="600" y1="150" x2="-500" y2="0"/>
+    <line x1="600" y1="150" x2="-400" y2="0"/>
+    <line x1="600" y1="150" x2="-300" y2="0"/>
+    <line x1="600" y1="150" x2="-200" y2="0"/>
+    <line x1="600" y1="150" x2="-100" y2="0"/>
+    <line x1="600" y1="150" x2="0" y2="0"/>
+    <line x1="600" y1="150" x2="100" y2="0"/>
+    <line x1="600" y1="150" x2="200" y2="0"/>
+    <line x1="600" y1="150" x2="300" y2="0"/>
+    <line x1="600" y1="150" x2="400" y2="0"/>
+    <line x1="600" y1="150" x2="500" y2="0"/>
+    <line x1="600" y1="150" x2="600" y2="0"/>
+    <line x1="600" y1="150" x2="700" y2="0"/>
+    <line x1="600" y1="150" x2="800" y2="0"/>
+    <line x1="600" y1="150" x2="900" y2="0"/>
+    <line x1="600" y1="150" x2="1000" y2="0"/>
+    <line x1="600" y1="150" x2="1100" y2="0"/>
+    <line x1="600" y1="150" x2="1200" y2="0"/>
+    <line x1="600" y1="150" x2="1300" y2="0"/>
+    <line x1="600" y1="150" x2="1400" y2="0"/>
+    <line x1="600" y1="150" x2="1500" y2="0"/>
+    <line x1="600" y1="150" x2="1600" y2="0"/>
+    <line x1="600" y1="150" x2="1700" y2="0"/>
+    <line x1="600" y1="150" x2="1800" y2="0"/>
+    <line x1="600" y1="150" x2="1900" y2="0"/>
+    <line x1="600" y1="150" x2="2000" y2="0"/>
+    <line x1="600" y1="150" x2="2100" y2="0"/>
+    <line x1="600" y1="150" x2="2200" y2="0"/>
+    <line x1="600" y1="150" x2="2300" y2="0"/>
+    <line x1="600" y1="150" x2="2400" y2="0"/>
+    <line x1="600" y1="150" x2="2500" y2="0"/>
+    <line x1="600" y1="150" x2="2600" y2="0"/>
+    <line x1="600" y1="150" x2="2700" y2="0"/>
+    <line x1="600" y1="150" x2="2800" y2="0"/>
+    <line x1="600" y1="150" x2="2900" y2="0"/>
+    <line x1="600" y1="150" x2="3000" y2="0"/>
+    <line x1="600" y1="150" x2="3100" y2="0"/>
+    <line x1="600" y1="150" x2="3200" y2="0"/>
+    <line x1="600" y1="150" x2="3300" y2="0"/>
+    <line x1="600" y1="150" x2="3400" y2="0"/>
+    <line x1="600" y1="150" x2="3500" y2="0"/>
+    <line x1="600" y1="150" x2="3600" y2="0"/>
+    <line x1="0" y1="149.5" x2="1200" y2="149.5"/>
+    <line x1="0" y1="147.9" x2="1200" y2="147.9"/>
+    <line x1="0" y1="144.9" x2="1200" y2="144.9"/>
+    <line x1="0" y1="140.5" x2="1200" y2="140.5"/>
+    <line x1="0" y1="134.4" x2="1200" y2="134.4"/>
+    <line x1="0" y1="126.7" x2="1200" y2="126.7"/>
+    <line x1="0" y1="117.4" x2="1200" y2="117.4"/>
+    <line x1="0" y1="106.2" x2="1200" y2="106.2"/>
+    <line x1="0" y1="93.3" x2="1200" y2="93.3"/>
+    <line x1="0" y1="78.5" x2="1200" y2="78.5"/>
+    <line x1="0" y1="61.8" x2="1200" y2="61.8"/>
+    <line x1="0" y1="43.1" x2="1200" y2="43.1"/>
+    <line x1="0" y1="22.6" x2="1200" y2="22.6"/>
     <line x1="0" y1="0.0" x2="1200" y2="0.0"/>
     </g></g>
-    <ellipse cx="600" cy="130" rx="520" ry="80" fill="url(#glow)"/>
-    <ellipse cx="600" cy="130" rx="380" ry="70" fill="#000" opacity="0.7" filter="url(#blur)"/>
+    <ellipse cx="600" cy="150" rx="560" ry="100" fill="url(#glow)"/>
+    <ellipse cx="600" cy="160" rx="420" ry="110" fill="#000" opacity="0.75" filter="url(#blur)"/>
     <text x="600" y="72" text-anchor="middle" class="m" font-size="15" fill="#7ee787">$ kubectl get engineer amilcar-rodriguez</text>
-    <text x="600" y="136" text-anchor="middle" class="t" font-size="52" font-weight="700">Amilcar Rodriguez</text>
-    <text x="600" y="172" text-anchor="middle" class="t m" font-size="19" fill="#c9d1d9">DevOps &amp; Software Engineer<tspan class="cur" fill="#2ea043"> ▌</tspan></text>
+    <text x="600" y="140" text-anchor="middle" class="t" font-size="56" font-weight="700">Amilcar Rodriguez</text>
+    <text x="600" y="180" text-anchor="middle" class="t m" font-size="20" fill="#c9d1d9">DevOps &amp; Software Engineer</text>
+    <g class="p0"><text x="600" y="246" text-anchor="middle" class="m" font-size="20" fill="#3fb950" clip-path="url(#cp0)">Automating everything from commit to production</text></g><g class="p1"><text x="600" y="246" text-anchor="middle" class="m" font-size="20" fill="#3fb950" clip-path="url(#cp1)">CI/CD • GitOps • Kubernetes • IaC</text></g><g class="p2"><text x="600" y="246" text-anchor="middle" class="m" font-size="20" fill="#3fb950" clip-path="url(#cp2)">Platform Engineering &amp; Cloud Native</text></g><g class="p3"><text x="600" y="246" text-anchor="middle" class="m" font-size="20" fill="#3fb950" clip-path="url(#cp3)">Building reliable, observable systems</text></g>
   </g>
 </svg>

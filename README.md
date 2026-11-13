@@ -4,16 +4,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Amilcar-Steban">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=800&color=2EA043&center=true&vCenter=true&width=620&lines=Automating+everything+from+commit+to+production;CI%2FCD+%E2%80%A2+GitOps+%E2%80%A2+Kubernetes+%E2%80%A2+IaC;Platform+Engineering+%26+Cloud+Native;Building+reliable%2C+observable+systems" alt="Typing SVG" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/amilcar-steban-rodriguez-martinez-6a65532a4/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:amilcarshm@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://instagram.com/stebanr.09"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Amilcar-Steban&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS" alt="Profile views" />
+  <a href="https://www.linkedin.com/in/amilcar-steban-rodriguez-martinez-6a65532a4/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:amilcarshm@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://instagram.com/stebanr.09"><img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Amilcar-Steban&style=for-the-badge&color=000000&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 ---

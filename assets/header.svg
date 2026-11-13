@@ -1,32 +1,190 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="0.55" stop-color="#0f2a4a"/>
-      <stop offset="1" stop-color="#0d3b2a"/>
+    <linearGradient id="fadeV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.42" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.58" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
     </linearGradient>
-    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1f6feb"/>
-      <stop offset="1" stop-color="#2ea043"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
-    </pattern>
+    <radialGradient id="fadeH" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.25" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.15"/>
+    </radialGradient>
+    <mask id="m">
+      <rect width="1200" height="260" fill="url(#fadeV)"/>
+    </mask>
+    <mask id="m2"><rect width="1200" height="260" fill="url(#fadeH)"/></mask>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
+    <clipPath id="c"><rect width="1200" height="260" rx="14"/></clipPath>
   </defs>
   <style>
     .t{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#fff}
     .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-    .w1{animation:s 9s ease-in-out infinite alternate}
-    .w2{animation:s 12s ease-in-out infinite alternate-reverse}
-    @keyframes s{from{transform:translateX(0)}to{transform:translateX(-60px)}}
     .cur{animation:b 1s steps(1) infinite}
     @keyframes b{50%{opacity:0}}
+    .pulse{animation:p 6s ease-in-out infinite}
+    @keyframes p{0%,100%{opacity:.55}50%{opacity:.9}}
   </style>
-  <rect width="1200" height="240" rx="14" fill="url(#bg)"/>
-  <rect width="1200" height="240" rx="14" fill="url(#grid)"/>
-  <g opacity="0.35" class="w2"><path d="M0 200 Q150 170 300 200 T600 200 T900 200 T1200 200 T1500 200 V240 H0Z" fill="url(#wave)"/></g>
-  <g opacity="0.6" class="w1"><path d="M0 215 Q150 195 300 215 T600 215 T900 215 T1200 215 T1500 215 V240 H0Z" fill="url(#wave)"/></g>
-  <text x="600" y="62" text-anchor="middle" class="m" font-size="16" fill="#7ee787">$ kubectl get engineer amilcar-rodriguez</text>
-  <text x="600" y="122" text-anchor="middle" class="t" font-size="52" font-weight="700">Amilcar Rodriguez</text>
-  <text x="600" y="162" text-anchor="middle" class="t m" font-size="20" fill="#c9d1d9">DevOps &amp; Software Engineer<tspan class="cur" fill="#2ea043"> ▌</tspan></text>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="260" fill="#000"/>
+    <g mask="url(#m2)"><g mask="url(#m)" class="pulse" stroke="#ffffff" stroke-width="1" stroke-opacity="0.8" fill="none">
+    <line x1="600" y1="130" x2="-2400" y2="260"/>
+    <line x1="600" y1="130" x2="-2300" y2="260"/>
+    <line x1="600" y1="130" x2="-2200" y2="260"/>
+    <line x1="600" y1="130" x2="-2100" y2="260"/>
+    <line x1="600" y1="130" x2="-2000" y2="260"/>
+    <line x1="600" y1="130" x2="-1900" y2="260"/>
+    <line x1="600" y1="130" x2="-1800" y2="260"/>
+    <line x1="600" y1="130" x2="-1700" y2="260"/>
+    <line x1="600" y1="130" x2="-1600" y2="260"/>
+    <line x1="600" y1="130" x2="-1500" y2="260"/>
+    <line x1="600" y1="130" x2="-1400" y2="260"/>
+    <line x1="600" y1="130" x2="-1300" y2="260"/>
+    <line x1="600" y1="130" x2="-1200" y2="260"/>
+    <line x1="600" y1="130" x2="-1100" y2="260"/>
+    <line x1="600" y1="130" x2="-1000" y2="260"/>
+    <line x1="600" y1="130" x2="-900" y2="260"/>
+    <line x1="600" y1="130" x2="-800" y2="260"/>
+    <line x1="600" y1="130" x2="-700" y2="260"/>
+    <line x1="600" y1="130" x2="-600" y2="260"/>
+    <line x1="600" y1="130" x2="-500" y2="260"/>
+    <line x1="600" y1="130" x2="-400" y2="260"/>
+    <line x1="600" y1="130" x2="-300" y2="260"/>
+    <line x1="600" y1="130" x2="-200" y2="260"/>
+    <line x1="600" y1="130" x2="-100" y2="260"/>
+    <line x1="600" y1="130" x2="0" y2="260"/>
+    <line x1="600" y1="130" x2="100" y2="260"/>
+    <line x1="600" y1="130" x2="200" y2="260"/>
+    <line x1="600" y1="130" x2="300" y2="260"/>
+    <line x1="600" y1="130" x2="400" y2="260"/>
+    <line x1="600" y1="130" x2="500" y2="260"/>
+    <line x1="600" y1="130" x2="600" y2="260"/>
+    <line x1="600" y1="130" x2="700" y2="260"/>
+    <line x1="600" y1="130" x2="800" y2="260"/>
+    <line x1="600" y1="130" x2="900" y2="260"/>
+    <line x1="600" y1="130" x2="1000" y2="260"/>
+    <line x1="600" y1="130" x2="1100" y2="260"/>
+    <line x1="600" y1="130" x2="1200" y2="260"/>
+    <line x1="600" y1="130" x2="1300" y2="260"/>
+    <line x1="600" y1="130" x2="1400" y2="260"/>
+    <line x1="600" y1="130" x2="1500" y2="260"/>
+    <line x1="600" y1="130" x2="1600" y2="260"/>
+    <line x1="600" y1="130" x2="1700" y2="260"/>
+    <line x1="600" y1="130" x2="1800" y2="260"/>
+    <line x1="600" y1="130" x2="1900" y2="260"/>
+    <line x1="600" y1="130" x2="2000" y2="260"/>
+    <line x1="600" y1="130" x2="2100" y2="260"/>
+    <line x1="600" y1="130" x2="2200" y2="260"/>
+    <line x1="600" y1="130" x2="2300" y2="260"/>
+    <line x1="600" y1="130" x2="2400" y2="260"/>
+    <line x1="600" y1="130" x2="2500" y2="260"/>
+    <line x1="600" y1="130" x2="2600" y2="260"/>
+    <line x1="600" y1="130" x2="2700" y2="260"/>
+    <line x1="600" y1="130" x2="2800" y2="260"/>
+    <line x1="600" y1="130" x2="2900" y2="260"/>
+    <line x1="600" y1="130" x2="3000" y2="260"/>
+    <line x1="600" y1="130" x2="3100" y2="260"/>
+    <line x1="600" y1="130" x2="3200" y2="260"/>
+    <line x1="600" y1="130" x2="3300" y2="260"/>
+    <line x1="600" y1="130" x2="3400" y2="260"/>
+    <line x1="600" y1="130" x2="3500" y2="260"/>
+    <line x1="600" y1="130" x2="3600" y2="260"/>
+    <line x1="0" y1="130.5" x2="1200" y2="130.5"/>
+    <line x1="0" y1="132.1" x2="1200" y2="132.1"/>
+    <line x1="0" y1="135.2" x2="1200" y2="135.2"/>
+    <line x1="0" y1="139.7" x2="1200" y2="139.7"/>
+    <line x1="0" y1="145.9" x2="1200" y2="145.9"/>
+    <line x1="0" y1="153.7" x2="1200" y2="153.7"/>
+    <line x1="0" y1="163.3" x2="1200" y2="163.3"/>
+    <line x1="0" y1="174.7" x2="1200" y2="174.7"/>
+    <line x1="0" y1="187.9" x2="1200" y2="187.9"/>
+    <line x1="0" y1="203.0" x2="1200" y2="203.0"/>
+    <line x1="0" y1="220.0" x2="1200" y2="220.0"/>
+    <line x1="0" y1="239.0" x2="1200" y2="239.0"/>
+    <line x1="0" y1="260.0" x2="1200" y2="260.0"/>
+    <line x1="600" y1="130" x2="-2400" y2="0"/>
+    <line x1="600" y1="130" x2="-2300" y2="0"/>
+    <line x1="600" y1="130" x2="-2200" y2="0"/>
+    <line x1="600" y1="130" x2="-2100" y2="0"/>
+    <line x1="600" y1="130" x2="-2000" y2="0"/>
+    <line x1="600" y1="130" x2="-1900" y2="0"/>
+    <line x1="600" y1="130" x2="-1800" y2="0"/>
+    <line x1="600" y1="130" x2="-1700" y2="0"/>
+    <line x1="600" y1="130" x2="-1600" y2="0"/>
+    <line x1="600" y1="130" x2="-1500" y2="0"/>
+    <line x1="600" y1="130" x2="-1400" y2="0"/>
+    <line x1="600" y1="130" x2="-1300" y2="0"/>
+    <line x1="600" y1="130" x2="-1200" y2="0"/>
+    <line x1="600" y1="130" x2="-1100" y2="0"/>
+    <line x1="600" y1="130" x2="-1000" y2="0"/>
+    <line x1="600" y1="130" x2="-900" y2="0"/>
+    <line x1="600" y1="130" x2="-800" y2="0"/>
+    <line x1="600" y1="130" x2="-700" y2="0"/>
+    <line x1="600" y1="130" x2="-600" y2="0"/>
+    <line x1="600" y1="130" x2="-500" y2="0"/>
+    <line x1="600" y1="130" x2="-400" y2="0"/>
+    <line x1="600" y1="130" x2="-300" y2="0"/>
+    <line x1="600" y1="130" x2="-200" y2="0"/>
+    <line x1="600" y1="130" x2="-100" y2="0"/>
+    <line x1="600" y1="130" x2="0" y2="0"/>
+    <line x1="600" y1="130" x2="100" y2="0"/>
+    <line x1="600" y1="130" x2="200" y2="0"/>
+    <line x1="600" y1="130" x2="300" y2="0"/>
+    <line x1="600" y1="130" x2="400" y2="0"/>
+    <line x1="600" y1="130" x2="500" y2="0"/>
+    <line x1="600" y1="130" x2="600" y2="0"/>
+    <line x1="600" y1="130" x2="700" y2="0"/>
+    <line x1="600" y1="130" x2="800" y2="0"/>
+    <line x1="600" y1="130" x2="900" y2="0"/>
+    <line x1="600" y1="130" x2="1000" y2="0"/>
+    <line x1="600" y1="130" x2="1100" y2="0"/>
+    <line x1="600" y1="130" x2="1200" y2="0"/>
+    <line x1="600" y1="130" x2="1300" y2="0"/>
+    <line x1="600" y1="130" x2="1400" y2="0"/>
+    <line x1="600" y1="130" x2="1500" y2="0"/>
+    <line x1="600" y1="130" x2="1600" y2="0"/>
+    <line x1="600" y1="130" x2="1700" y2="0"/>
+    <line x1="600" y1="130" x2="1800" y2="0"/>
+    <line x1="600" y1="130" x2="1900" y2="0"/>
+    <line x1="600" y1="130" x2="2000" y2="0"/>
+    <line x1="600" y1="130" x2="2100" y2="0"/>
+    <line x1="600" y1="130" x2="2200" y2="0"/>
+    <line x1="600" y1="130" x2="2300" y2="0"/>
+    <line x1="600" y1="130" x2="2400" y2="0"/>
+    <line x1="600" y1="130" x2="2500" y2="0"/>
+    <line x1="600" y1="130" x2="2600" y2="0"/>
+    <line x1="600" y1="130" x2="2700" y2="0"/>
+    <line x1="600" y1="130" x2="2800" y2="0"/>
+    <line x1="600" y1="130" x2="2900" y2="0"/>
+    <line x1="600" y1="130" x2="3000" y2="0"/>
+    <line x1="600" y1="130" x2="3100" y2="0"/>
+    <line x1="600" y1="130" x2="3200" y2="0"/>
+    <line x1="600" y1="130" x2="3300" y2="0"/>
+    <line x1="600" y1="130" x2="3400" y2="0"/>
+    <line x1="600" y1="130" x2="3500" y2="0"/>
+    <line x1="600" y1="130" x2="3600" y2="0"/>
+    <line x1="0" y1="129.5" x2="1200" y2="129.5"/>
+    <line x1="0" y1="127.9" x2="1200" y2="127.9"/>
+    <line x1="0" y1="124.8" x2="1200" y2="124.8"/>
+    <line x1="0" y1="120.3" x2="1200" y2="120.3"/>
+    <line x1="0" y1="114.1" x2="1200" y2="114.1"/>
+    <line x1="0" y1="106.3" x2="1200" y2="106.3"/>
+    <line x1="0" y1="96.7" x2="1200" y2="96.7"/>
+    <line x1="0" y1="85.3" x2="1200" y2="85.3"/>
+    <line x1="0" y1="72.1" x2="1200" y2="72.1"/>
+    <line x1="0" y1="57.0" x2="1200" y2="57.0"/>
+    <line x1="0" y1="40.0" x2="1200" y2="40.0"/>
+    <line x1="0" y1="21.0" x2="1200" y2="21.0"/>
+    <line x1="0" y1="0.0" x2="1200" y2="0.0"/>
+    </g></g>
+    <ellipse cx="600" cy="130" rx="520" ry="80" fill="url(#glow)"/>
+    <ellipse cx="600" cy="130" rx="380" ry="70" fill="#000" opacity="0.7" filter="url(#blur)"/>
+    <text x="600" y="72" text-anchor="middle" class="m" font-size="15" fill="#7ee787">$ kubectl get engineer amilcar-rodriguez</text>
+    <text x="600" y="136" text-anchor="middle" class="t" font-size="52" font-weight="700">Amilcar Rodriguez</text>
+    <text x="600" y="172" text-anchor="middle" class="t m" font-size="19" fill="#c9d1d9">DevOps &amp; Software Engineer<tspan class="cur" fill="#2ea043"> ▌</tspan></text>
+  </g>
 </svg>

@@ -20,26 +20,33 @@
 
 ## 👨‍💻 About me
 
-I'm a **Telematics Engineer** working as a **DevOps & Software Engineer**. I design and automate the path from `git push` to production: containerized services, CI/CD pipelines, GitOps deployments on Kubernetes and cloud infrastructure defined as code.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-I care about **delivery speed without sacrificing reliability**: repeatable environments, progressive rollouts, observability and security baked into the pipeline, not bolted on at the end.
+**Telematics Engineer** working as a **DevOps & Software Engineer**.
+
+I automate the path from `git push` to production: containers, CI/CD, GitOps on Kubernetes and cloud infrastructure as code.
+
+Fast delivery **without sacrificing reliability**: observability and security built into the pipeline.
+
+</td>
+<td width="50%" valign="top">
 
 ```yaml
-apiVersion: engineer/v1
-kind: Profile
+kind: Engineer
 metadata:
   name: amilcar-rodriguez
-  role: DevOps & Software Engineer
 spec:
-  focus: [CI/CD, GitOps, Kubernetes, Infrastructure as Code, Cloud Native]
-  cloud: [AWS, Azure, Google Cloud]
-  languages: [Python, Java, JavaScript, Bash, Kotlin]
-  architecture: [Microservices, Event-driven, Containers]
-  currently:
-    - Building an open DevOps course in Spanish (Roadmap DevOps 2027)
-    - Exploring AI agents for on-call & platform operations
-  motto: "If you do it twice, automate it."
+  focus: [CI/CD, GitOps, K8s, IaC]
+  cloud: [AWS, Azure, GCP]
+  code: [Python, Java, JS, Bash]
+  motto: "Do it twice? Automate it."
 ```
+
+</td>
+</tr>
+</table>
 
 ## 🛠️ Tech stack
 
